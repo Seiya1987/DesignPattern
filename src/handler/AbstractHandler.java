@@ -1,4 +1,4 @@
-package Iterator;
+package handler;
 
 public abstract class AbstractHandler {
     protected AbstractHandler nextHandler;

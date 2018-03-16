@@ -1,6 +1,6 @@
-package Iterator;
+package handler;
 
-public class Handler3 extends AbstractHandler {
+public class Handler2 extends AbstractHandler {
     @Override
     protected void handle(AbstractRequest request) {
         System.out.println("request level: "+ request.getRequestLevel());
@@ -8,6 +8,6 @@ public class Handler3 extends AbstractHandler {
 
     @Override
     protected int getHandleLevel() {
-        return 3;
+        return 2;
     }
 }
